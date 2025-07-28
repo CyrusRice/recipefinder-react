@@ -1,7 +1,9 @@
+import SearchForm from "./SearchForm";
+
 const Home = () => {
   return ( 
     <div className="home">
-      <p>Home Page</p>
+      <SearchForm />
     </div>
    );
 }
