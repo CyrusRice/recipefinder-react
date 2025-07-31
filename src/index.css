@@ -1,3 +1,11 @@
+.App{
+  background-color: blanchedalmond;
+}
+p {
+  font-style: italic;
+  text-align: center;
+  color: lightseagreen;
+}
 form {
   text-align: center;
 }

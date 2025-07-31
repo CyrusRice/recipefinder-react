@@ -1,9 +1,11 @@
+import { useEffect } from "react";
 import SearchForm from "./SearchForm";
 
-const Home = () => {
+const Home = ({setSearchString}) => {
   return ( 
     <div className="home">
-      <SearchForm />
+      <p id="description">Use this website to find recipes based on your desired ingredients</p>
+      <SearchForm setSearchString={setSearchString}/>
     </div>
    );
 }
