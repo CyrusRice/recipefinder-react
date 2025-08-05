@@ -7,9 +7,9 @@ import { useEffect, useState } from 'react';
 
 function App() {
   const [searchString, setSearchString] = useState("Joe");
-  useEffect(() => {
+  /*useEffect(() => {
     console.log(searchString);
-  }, [searchString])
+  }, [searchString])*/
   return (
     <Router>
       <div className="App">

@@ -20,7 +20,8 @@ const SearchForm = ({setSearchString}) => {
     } else {
       fullSearchString += 'titleMatch=' + document.getElementById("recipe-name").value;
     }
-    fullSearchString += "&number=10&instructionsRequired=true&apiKey=64bf1bceb4104664bbdfc0c611b195f6";
+    //fullSearchString += "&number=10&instructionsRequired=true&apiKey=64bf1bceb4104664bbdfc0c611b195f6";
+      fullSearchString += "&number=10&instructionsRequired=true&apiKey=64bf1bceb4104664bbdfc0c611b195f6";
     setSearchString(fullSearchString);
     history.push('/search');
   }
