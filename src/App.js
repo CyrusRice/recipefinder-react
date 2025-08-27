@@ -4,7 +4,7 @@ import Home from './Home';
 import FoodBanner from './FoodBanner';
 import SearchResults from './SearchResults';
 import RecipeInfo from './RecipeInfo';
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 
 function App() {
   const [searchString, setSearchString] = useState("Joe");
@@ -35,3 +35,7 @@ function App() {
 }
 
 export default App;
+
+
+// Test full functionality, remove test files and 
+// other uneeded files, get it working w/ github pages

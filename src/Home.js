@@ -1,4 +1,3 @@
-import { useEffect } from "react";
 import SearchForm from "./SearchForm";
 
 const Home = ({setSearchString}) => {

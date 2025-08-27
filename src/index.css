@@ -1,10 +1,21 @@
-.App{
+body {
   background-color: blanchedalmond;
 }
 p {
   font-style: italic;
   text-align: center;
   color: lightseagreen;
+}
+#home-link {
+  margin-bottom: 10px;
+}
+a, #results-link {
+  width: fit-content;
+  margin: auto;
+  display: block;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: underline;
 }
 form {
   text-align: center;
