@@ -9,13 +9,13 @@ const useFetch = (url) => {
     const abortCont = new AbortController();
 
     setTimeout(() => {
-      //fetch(url.searchString, {signal : abortCont.signal})
-      fetch(url.searchString)
+      //fetch(url, {signal : abortCont.signal})
+      fetch(url)
       .then(res => {
         if(!res.ok) {
           throw Error('Couldn\'t fetch the data for that resource');
         }
-        //console.log(url.searchString);
+        console.log(url);
         //console.log(res);
         return res.json();
       })
