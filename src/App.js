@@ -35,7 +35,3 @@ function App() {
 }
 
 export default App;
-
-
-// Test full functionality, remove test files and 
-// other uneeded files, get it working w/ github pages
