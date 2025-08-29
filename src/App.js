@@ -15,13 +15,13 @@ function App() {
         <FoodBanner />
         <div className="content">
           <Switch>
-            <Route exact path='/'>
+            <Route exact path='/recipefinder-react'>
               <Home setSearchString={setSearchString}/>
             </Route>
-            <Route path='/search'>
+            <Route exact path='/recipefinder-react/search'>
               <SearchResults searchString={searchString}/>
             </Route>
-            <Route path='/recipe/:id'>
+            <Route exact path='/recipefinder-react/recipe/:id'>
               <RecipeInfo />
             </Route>
             <Route path="*">

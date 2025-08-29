@@ -11,8 +11,8 @@ const RecipeInfo = () => {
       { isPending && <div>Loading...</div> }
       { error && <div>{ error }</div> }
       {recipe && <div>
-        <a href="/" id="home-link">Back to search</a>
-        <div id="results-link" onClick={function() { history.push('/search') }}>Back to results</div>
+        <a href="/recipefinder-react" id="home-link">Back to search</a>
+        <div id="results-link" onClick={function() { history.push('/recipefinder-react/search') }}>Back to results</div>
         <div className="recipe">
           <p id="recipe-title">{recipe.title}</p>
           <img src={recipe.image} alt={'image of ' + recipe.title} id="recipe-img" />

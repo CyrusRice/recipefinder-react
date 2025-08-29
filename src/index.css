@@ -1,6 +1,9 @@
 body {
   background-color: blanchedalmond;
 }
+.sorry {
+  text-align: center;
+}
 p {
   font-style: italic;
   text-align: center;

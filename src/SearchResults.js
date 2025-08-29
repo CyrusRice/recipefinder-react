@@ -11,10 +11,10 @@ const SearchResults = (searchString) => {
       { isPending && <div>Loading...</div> }
       { error && <div>{ error }</div> }
       {recipes && <div>
-        <a href="/" id="home-link">Back to search</a>
+        <a href="/recipefinder-react" id="home-link">Back to search</a>
         <div className="container" id="container">
           {recipes.results.map((recipe, index) => (
-            <div className={"item item-" + index} id={recipe.id} key={index} onClick={function() { history.push('/recipe/' + recipe.id) }}>
+            <div className={"item item-" + index} id={recipe.id} key={index} onClick={function() { history.push('/recipefinder-react/recipe/' + recipe.id) }}>
               <p className={"title title-" + index}>{recipe.title}</p>
               <img src={recipe.image} alt={'image of ' + recipe.title} className={"img img-" + index} />
             </div>
