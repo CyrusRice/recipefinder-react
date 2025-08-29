@@ -1,3 +1,6 @@
+# About recipefinder
+This is a website I developed for finding recipes based on a list of ingredients or the recipe name. The website can be accessed [here](https://cyrusrice.github.io/recipefinder-react).
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
