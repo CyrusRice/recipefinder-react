@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/recipefinder-react/static/css/main.50dc694f.css",
-    "main.js": "/recipefinder-react/static/js/main.c6d518d9.js",
+    "main.css": "/recipefinder-react/static/css/main.fbd41510.css",
+    "main.js": "/recipefinder-react/static/js/main.88e614a8.js",
     "static/media/pancakes.png": "/recipefinder-react/static/media/pancakes.df9e7ca7d4534e7d2884.png",
     "static/media/spaghetti.png": "/recipefinder-react/static/media/spaghetti.3c6f605e61cbbd38b190.png",
     "static/media/pizza.png": "/recipefinder-react/static/media/pizza.f8404196a48564327c8e.png",
     "index.html": "/recipefinder-react/index.html",
-    "main.50dc694f.css.map": "/recipefinder-react/static/css/main.50dc694f.css.map",
-    "main.c6d518d9.js.map": "/recipefinder-react/static/js/main.c6d518d9.js.map"
+    "main.fbd41510.css.map": "/recipefinder-react/static/css/main.fbd41510.css.map",
+    "main.88e614a8.js.map": "/recipefinder-react/static/js/main.88e614a8.js.map"
   },
   "entrypoints": [
-    "static/css/main.50dc694f.css",
-    "static/js/main.c6d518d9.js"
+    "static/css/main.fbd41510.css",
+    "static/js/main.88e614a8.js"
   ]
 }
